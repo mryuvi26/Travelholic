@@ -1,0 +1,9 @@
+.hello{
+    background: url("/desert-6041013_1920.jpg");
+    background-repeat:no-repeat ;
+}
+
+/* style={{
+          height: "400px", overflow: "hidden", width: "600px", marginTop: "200px",
+          marginLeft: "100px", borderRadius: "10px", boxShadow: "0 8px 20px rgba(0, 0, 0.5, 1)"
+        }} */
