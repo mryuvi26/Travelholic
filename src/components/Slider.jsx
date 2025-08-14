@@ -14,9 +14,9 @@ import { useState } from 'react';
 
 const Slider = () => {
   const slides = [
-    <img src="../../public/ladakh-7545887_1920.jpg" alt="" />,
-    <img src="../../public/pexels-souvenirpixels-417074.jpg" alt="" />,
-    <img src="../../public/these-yahyal-waterfalls-5073464_1920.jpg" alt="" />
+    <img src="/ladakh-7545887_1920.jpg" alt="" />,
+    <img src="/pexels-souvenirpixels-417074.jpg" alt="" />,
+    <img src="/these-yahyal-waterfalls-5073464_1920.jpg" alt="" />
 
   ]
   const [curr, setCurr] = useState(0);
