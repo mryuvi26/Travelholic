@@ -17,7 +17,7 @@ const Cards = () => {
                 <div className=" flex py-8 max-sm:flex-col max-sm:items-center">
                     <div className="image flex ml-[80px] w-[650px] max-sm:w-[100%] max-sm:ml-0">
                         <div
-                        ><img className="rounded-4" src="/public/international/azores-4085452_1920.jpg" alt="" /></div>
+                        ><img className="rounded-4"   src={`${import.meta.env.BASE_URL}international/azores-4085452_1920.jpg`} alt="" /></div>
                     </div>
                     <div className="text-center  w-[500px] ml-[100px]  mt-10 max-sm:w-[100%] max-sm:ml-0">
                         <h1 style={{ fontFamily: '-moz-initial', fontSize: '30px' }} className=" ml-[-200px] max-sm:ml-[-80px] ">The Azores, Portugal</h1>
@@ -35,7 +35,7 @@ const Cards = () => {
                     </div>
                     <div className="image flex ml-[400px] w-[650px] max-sm:w-[78%] max-sm:ml-[110px] max-sm:mt-[-600px]">
                         <div
-                        ><img className="rounded-4" src="/public/international/tourists-take-boat-ban-rak-thai-village-mae-hong-son-province-thailand.jpg" alt="" />
+                        ><img className="rounded-4" src={ `${import.meta.env.BASE_URL}international/tourists-take-boat-ban-rak-thai-village-mae-hong-son-province-thailand.jpg`,} alt="" />
                         </div>
                     </div>
 
