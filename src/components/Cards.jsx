@@ -35,7 +35,7 @@ const Cards = () => {
                     </div>
                     <div className="image flex ml-[400px] w-[650px] max-sm:w-[78%] max-sm:ml-[110px] max-sm:mt-[-600px]">
                         <div
-                        ><img className="rounded-4" src="/public/international/tourists-take-boat-ban-rak-thai-village-mae-hong-son-province-thailand.jpg" alt="" />
+                        ><img className="rounded-4" src={ `${import.meta.env.BASE_URL}international/tourists-take-boat-ban-rak-thai-village-mae-hong-son-province-thailand.jpg`} alt="" />
                         </div>
                     </div>
 
@@ -43,7 +43,7 @@ const Cards = () => {
                 <div className="flex py-8 max-sm:flex-col max-sm:items-center max-sm:mt-[400px]">
                     <div className=" image flex ml-[80px] w-[650px] max-sm:w-[100%] max-sm:ml-0">
                         <div
-                        ><img className="rounded-4" src="/public/international/winter-lake.jpg" alt="" /></div>
+                        ><img className="rounded-4" src={`${import.meta.env.BASE_URL} `} alt="" /></div>
                     </div>
                     <div className="text-center  w-[500px] ml-[100px]  mt-10 max-sm:w-[100%] max-sm:ml-0">
                         <h1 style={{ fontFamily: '-moz-initial' }} className=" ml-[-150px] text-[28px] max-sm:ml-[-35px] ">The Chandrataal Lake, India</h1>
@@ -62,7 +62,7 @@ const Cards = () => {
                     </div>
                     <div className="image flex ml-[400px] w-[650px] max-sm:w-[100%] max-sm:ml-[0px] max-sm:mt-[-570px]">
                         <div
-                        ><img className="rounded-4" src="/public/international/cherry-blossoms-spring-chureito-pagoda-fuji-mountain-sunset-japan.jpg" alt="" />
+                        ><img className="rounded-4" src={ `${import.meta.env.BASE_URL}international/cherry-blossoms-spring-chureito-pagoda-fuji-mountain-sunset-japan.jpg`} alt="" />
                         </div>
                     </div>
 
