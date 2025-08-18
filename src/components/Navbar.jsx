@@ -21,7 +21,7 @@ function Navbar() {
 
       <nav className=" bg-gray-800 p-4 flex justify-between items-center ">
         <div className=" flex items-center flex">
-          <img src={`${import.meta.env.BASE_URL}ChatGPT Image Aug 3, 2025, 11_43_27 AM.png`} className="text-2xl mr-[-5px]" style={{ marginTop: '-10px', rotate: '-10deg', height: '60px', color: '#ffffffff', fontSize: '23px', marginLeft: '20px' }} />
+          <img src={`${import.meta.env.BASE_URL}logo.png`} className="text-2xl mr-[-5px]" style={{ marginTop: '-10px', rotate: '-10deg', height: '60px', color: '#ffffffff', fontSize: '23px', marginLeft: '20px' }} />
           <h1 className="text-sky-600 font-bold text-xl" style={{ marginTop: '10px' }}> TRAVELHOLIC</h1>
         </div>
         <div className="hidden input md:flex items-center space-x-4">
