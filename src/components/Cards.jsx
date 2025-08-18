@@ -62,7 +62,7 @@ const Cards = () => {
                     </div>
                     <div className="image flex ml-[400px] w-[650px] max-sm:w-[100%] max-sm:ml-[0px] max-sm:mt-[-570px]">
                         <div
-                        ><img className="rounded-4" src={  `${import.meta.env.BASE_URL}international/cherry-blossoms-spring-chureito-pagoda-fuji-mountain-sunset-japan.jpg`} alt="" />
+                        ><img className="rounded-4" src={`${import.meta.env.BASE_URL}international/cherry-blossoms-spring-chureito-pagoda-fuji-mountain-sunset-japan.jpg`} alt="" />
                         </div>
                     </div>
 
