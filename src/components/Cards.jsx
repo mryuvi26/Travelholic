@@ -43,7 +43,7 @@ const Cards = () => {
                 <div className="flex py-8 max-sm:flex-col max-sm:items-center max-sm:mt-[400px]">
                     <div className=" image flex ml-[80px] w-[650px] max-sm:w-[100%] max-sm:ml-0">
                         <div
-                        ><img className="rounded-4" src={`${import.meta.env.BASE_URL} `} alt="" /></div>
+                        ><img className="rounded-4" src={`${import.meta.env.BASE_URL}international/winter-lake.jpg `} alt="" /></div>
                     </div>
                     <div className="text-center  w-[500px] ml-[100px]  mt-10 max-sm:w-[100%] max-sm:ml-0">
                         <h1 style={{ fontFamily: '-moz-initial' }} className=" ml-[-150px] text-[28px] max-sm:ml-[-35px] ">The Chandrataal Lake, India</h1>
