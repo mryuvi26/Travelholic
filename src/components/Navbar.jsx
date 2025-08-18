@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "../../node_modules/tailwindcss/tailwind.css";
 import './Navbar.css';
-import IMAGES from "../script.js";
 import { FaPaperPlane } from "react-icons/fa";
 import { FaBarsStaggered } from "react-icons/fa6";
 
@@ -14,16 +13,7 @@ import { FaBarsStaggered } from "react-icons/fa6";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const Image = {
-    image1 :IMAGES.image1,
-    image2 : IMAGES.image2,
-    image3 : IMAGES.image3,
-    image4 : IMAGES.image4,
-    image5 : IMAGES.image5,
-    image6 : IMAGES.image6,
-    image7 : IMAGES.image7
-
-  }
+ 
 
   return (
     <>
@@ -31,7 +21,7 @@ function Navbar() {
 
       <nav className=" bg-gray-800 p-4 flex justify-between items-center ">
         <div className=" flex items-center flex">
-          <img src={Image[0]} className="text-2xl mr-[-5px]" style={{ marginTop: '-10px', rotate: '-10deg', height: '60px', color: '#ffffffff', fontSize: '23px', marginLeft: '20px' }} />
+          <img src='../../public/ChatGPT Image Aug 3, 2025, 11_43_27 AM.png' className="text-2xl mr-[-5px]" style={{ marginTop: '-10px', rotate: '-10deg', height: '60px', color: '#ffffffff', fontSize: '23px', marginLeft: '20px' }} />
           <h1 className="text-sky-600 font-bold text-xl" style={{ marginTop: '10px' }}> TRAVELHOLIC</h1>
         </div>
         <div className="hidden input md:flex items-center space-x-4">
