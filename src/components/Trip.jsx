@@ -12,7 +12,7 @@ const Trip = () => {
                </div>
              <div className='d-flex justify-content-around flex-wrap'>
                   <div className="card" style={{ width: "20rem" ,height: "25rem"}}>
-                <img src={`${import.meta.env.BASE_URL} indian-temple-4782290_1920.jpg`} className="card-img-top" alt="..." />
+                <img src={`${import.meta.env.BASE_URL} indian-temple.jpg`} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <p className="card-text"> <span style={{color:"blue"}}>Prem Mandir, Vrindavan:</span> It is a significant Hindu temple dedicated to Lord Krishna and Radha located in Vrindavan.</p>
                        <a href="#" class="btn btn-primary">Visit Here </a>
