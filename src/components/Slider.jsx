@@ -15,7 +15,7 @@ import { useState } from 'react';
 const Slider = () => {
   const slides = [
     <img src={`${import.meta.env.BASE_URL} ladakh-7545887_1920.jpg`} alt="" />,
-    <img src={`${import.meta.env.BASE_URL}pexels-souvenirpixels-417074.jpg`} alt="" />,
+    <img src={`${import.meta.env.BASE_URL} pexels-souvenirpixels-417074.jpg`} alt="" />,
     <img src={`${import.meta.env.BASE_URL} waterfall.jpg`} alt="" />
 
   ]
