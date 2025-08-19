@@ -16,7 +16,7 @@ const Slider = () => {
   const slides = [
     <img src={`${import.meta.env.BASE_URL} ladakh-7545887_1920.jpg`} alt="" />,
     <img src={`${import.meta.env.BASE_URL}pexels-souvenirpixels-417074.jpg`} alt="" />,
-    <img src={`${import.meta.env.BASE_URL}these-yahyal-waterfalls-5073464_1920.jpg`} alt="" />
+    <img src={`${import.meta.env.BASE_URL} waterfall.jpg`} alt="" />
 
   ]
   const [curr, setCurr] = useState(0);
